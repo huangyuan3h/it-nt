@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:14.2.5"],\
           ["lucide-react", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:0.428.0"],\
           ["next", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:14.2.5"],\
+          ["next-intl", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:3.17.4"],\
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:18.3.1"],\
@@ -664,6 +665,60 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@eslint-js-npm-8.57.0-00ead3710a-10c0.zip/node_modules/@eslint/js/",\
         "packageDependencies": [\
           ["@eslint/js", "npm:8.57.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formatjs/ecma402-abstract", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@formatjs-ecma402-abstract-npm-2.0.0-a81766ac3e-10c0.zip/node_modules/@formatjs/ecma402-abstract/",\
+        "packageDependencies": [\
+          ["@formatjs/ecma402-abstract", "npm:2.0.0"],\
+          ["@formatjs/intl-localematcher", "npm:0.5.4"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formatjs/fast-memoize", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../.yarn/berry/cache/@formatjs-fast-memoize-npm-2.2.0-4a46a61b8b-10c0.zip/node_modules/@formatjs/fast-memoize/",\
+        "packageDependencies": [\
+          ["@formatjs/fast-memoize", "npm:2.2.0"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formatjs/icu-messageformat-parser", [\
+      ["npm:2.7.8", {\
+        "packageLocation": "../../.yarn/berry/cache/@formatjs-icu-messageformat-parser-npm-2.7.8-f6b64e3bd8-10c0.zip/node_modules/@formatjs/icu-messageformat-parser/",\
+        "packageDependencies": [\
+          ["@formatjs/icu-messageformat-parser", "npm:2.7.8"],\
+          ["@formatjs/ecma402-abstract", "npm:2.0.0"],\
+          ["@formatjs/icu-skeleton-parser", "npm:1.8.2"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formatjs/icu-skeleton-parser", [\
+      ["npm:1.8.2", {\
+        "packageLocation": "../../.yarn/berry/cache/@formatjs-icu-skeleton-parser-npm-1.8.2-de6f6f7fa4-10c0.zip/node_modules/@formatjs/icu-skeleton-parser/",\
+        "packageDependencies": [\
+          ["@formatjs/icu-skeleton-parser", "npm:1.8.2"],\
+          ["@formatjs/ecma402-abstract", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formatjs/intl-localematcher", [\
+      ["npm:0.5.4", {\
+        "packageLocation": "../../.yarn/berry/cache/@formatjs-intl-localematcher-npm-0.5.4-e30cfcd8fd-10c0.zip/node_modules/@formatjs/intl-localematcher/",\
+        "packageDependencies": [\
+          ["@formatjs/intl-localematcher", "npm:0.5.4"],\
+          ["tslib", "npm:2.6.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3706,6 +3761,19 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["intl-messageformat", [\
+      ["npm:10.5.14", {\
+        "packageLocation": "../../.yarn/berry/cache/intl-messageformat-npm-10.5.14-0494957584-10c0.zip/node_modules/intl-messageformat/",\
+        "packageDependencies": [\
+          ["intl-messageformat", "npm:10.5.14"],\
+          ["@formatjs/ecma402-abstract", "npm:2.0.0"],\
+          ["@formatjs/fast-memoize", "npm:2.2.0"],\
+          ["@formatjs/icu-messageformat-parser", "npm:2.7.8"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ip-address", [\
       ["npm:9.0.5", {\
         "packageLocation": "../../.yarn/berry/cache/ip-address-npm-9.0.5-9fa024d42a-10c0.zip/node_modules/ip-address/",\
@@ -4052,6 +4120,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-next", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:14.2.5"],\
           ["lucide-react", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:0.428.0"],\
           ["next", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:14.2.5"],\
+          ["next-intl", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:3.17.4"],\
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:18.3.1"],\
@@ -4612,6 +4681,35 @@ const RAW_RUNTIME_STATE =
           "react-dom",\
           "react",\
           "sass"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["next-intl", [\
+      ["npm:3.17.4", {\
+        "packageLocation": "../../.yarn/berry/cache/next-intl-npm-3.17.4-c07c765a27-10c0.zip/node_modules/next-intl/",\
+        "packageDependencies": [\
+          ["next-intl", "npm:3.17.4"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:3.17.4", {\
+        "packageLocation": "./.yarn/__virtual__/next-intl-virtual-5027faf495/3/.yarn/berry/cache/next-intl-npm-3.17.4-c07c765a27-10c0.zip/node_modules/next-intl/",\
+        "packageDependencies": [\
+          ["next-intl", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:3.17.4"],\
+          ["@formatjs/intl-localematcher", "npm:0.5.4"],\
+          ["@types/next", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["negotiator", "npm:0.6.3"],\
+          ["next", "virtual:7fc3a11e81b6b9eb143875fecb72cf30b69c6ebf8e226c93eb42b27246926a9a9ea769b608681685823fd865ade03452d6191d18e3bbd4ecfdfc17ab9e7dc4df#npm:14.2.5"],\
+          ["react", "npm:18.3.1"],\
+          ["use-intl", "virtual:5027faf495601d639d46b95ff2e4a6ee768dbcadbdba119055b0126229843bfb33db910803ce8b8a7a88487c428f246a8f5e0cbd6b8872b45837b187a458496e#npm:3.17.4"]\
+        ],\
+        "packagePeers": [\
+          "@types/next",\
+          "@types/react",\
+          "next",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6164,6 +6262,30 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["uri-js", "npm:4.4.1"],\
           ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["use-intl", [\
+      ["npm:3.17.4", {\
+        "packageLocation": "../../.yarn/berry/cache/use-intl-npm-3.17.4-8cc85b6f2e-10c0.zip/node_modules/use-intl/",\
+        "packageDependencies": [\
+          ["use-intl", "npm:3.17.4"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5027faf495601d639d46b95ff2e4a6ee768dbcadbdba119055b0126229843bfb33db910803ce8b8a7a88487c428f246a8f5e0cbd6b8872b45837b187a458496e#npm:3.17.4", {\
+        "packageLocation": "./.yarn/__virtual__/use-intl-virtual-9bef66f1f3/3/.yarn/berry/cache/use-intl-npm-3.17.4-8cc85b6f2e-10c0.zip/node_modules/use-intl/",\
+        "packageDependencies": [\
+          ["use-intl", "virtual:5027faf495601d639d46b95ff2e4a6ee768dbcadbdba119055b0126229843bfb33db910803ce8b8a7a88487c428f246a8f5e0cbd6b8872b45837b187a458496e#npm:3.17.4"],\
+          ["@formatjs/fast-memoize", "npm:2.2.0"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["intl-messageformat", "npm:10.5.14"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
